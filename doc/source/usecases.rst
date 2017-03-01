@@ -22,12 +22,26 @@ Sample queries
 * Query for individuals in cohorts using logical operators
 * Fetch all biosamples for an individual X
 * Fetch all biosamples for male individuals X
-* Find all biosamples for an individual with an annotation of polydactyly (phenotype)
+* Find all biosamples for an individual with a specific phenotype or disease (eg annotation of polydactyly)
+* Find all biosamples by tissue or cell line
+* Find all individuals that have X and not Y (negative filtering of result sets)
+* Find all individuals with X using method Y (eg AML diagnosis with CGH array data and RNA-Seq)
 
 Lookup
 @@@@@@
 
 * For a given name, what else is this feature known as (synonym lookup)
+
+Metadata
+@@@@@@@@
+
+* For a dataset, what use restrictions apply (DUO ontology)
+* Filter above result sets based on creation/update time (exact or range)
+
+Reads/Sequence
+@@@@@@@@@@@@@@
+
+* Fetch associated reads/sequence for results set from above filters (second query or parameter to first query?)
 
 Federated queries
 @@@@@@@@@@@@@@@@@
