@@ -22,6 +22,7 @@ Sample queries
 * Query for individuals in cohorts using logical operators
 * Fetch all biosamples for an individual X
 * Fetch all biosamples for male individuals X
+* Fetch ancestry and/or ethnicity for an individual X
 * Find all biosamples for an individual with a specific phenotype or disease (eg annotation of polydactyly)
 * Find all biosamples by tissue or cell line
 * Find all individuals that have X and not Y (negative filtering of result sets)
@@ -35,7 +36,7 @@ Lookup
 Metadata
 @@@@@@@@
 
-* For a dataset, what use restrictions apply (DUO ontology)
+* For a dataset, what use restrictions apply (DUO ontology <https://github.com/EBISPOT/DUO> )
 * Filter above result sets based on creation/update time (exact or range)
 
 Reads/Sequence
@@ -56,4 +57,4 @@ Data discovery
 
 * What subset of the schema does query server provide, endpoints, object types returned
 * Does server queried provide recursive lookups
-* What servers does the queried server perform recursive lookups against?
+* Return a list of servers recursive lookups are performed against (will this be by endpoint, as different servers may provide different subsets of defined endpoints?)
