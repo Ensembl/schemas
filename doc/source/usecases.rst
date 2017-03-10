@@ -50,7 +50,7 @@ Federated queries
 * Allow user to request recursive lookups, which queries all servers it knows about to aggregate results (similar to DNS recursive queries)
 * In returned results for recursive lookups, list the servers queries and success/failure of each
 * Returns a list of peer/other servers that a server knows about, to assist with data discovery
-* Return what servers would be queries for a recursive query 
+* Return what servers would be queried for a recursive query 
 
 Data discovery
 @@@@@@@@@@@@@@
