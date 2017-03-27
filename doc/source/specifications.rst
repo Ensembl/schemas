@@ -18,7 +18,7 @@ Queries
 
   {
     "biosample": {
-      "gender": "http://semanticscience.org/resource/SIO_010048",
+      "biological_sex": "http://purl.obolibrary.org/obo/PATO_0020001",
       "population": ["1000GENOMES:phase_3:CEU", "1000GENOMES:phase_3:CHB"]
     },
     "disease": "EFO:0004330",
