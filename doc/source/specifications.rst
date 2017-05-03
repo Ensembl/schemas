@@ -62,7 +62,7 @@ Requirements for providers that will allow recursive queries.
 * Providers may build a list of peers to use for recursive queries through an operator provided list OR
 * Providers may build a list of peers to use for recursive queries through a seed list of peers and spidering across peers to discover all relevant peers
 * If a provider performs a recursive lookup on peer providers, the returned results must list what peers were queried and the success or failure of each
-* If a provider does not allow recusrive queries, it may return a list of known peers that provide the queries endpoint
+* If a provider does not allow recusrive queries, it may return a list of known peers that provide the queried endpoint
 * Providers must perform a periodic heartbeat to known peers and update their list of federated endpoints as appopriate
 
 Security
