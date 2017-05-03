@@ -49,7 +49,7 @@ Exact definitions and calculation methods will be defined in a future specificat
 Data Discovery
 @@@@@@@@@@@@@@
 
-* Endpoints will accept a /schema suffix which will return the JSON Schema or Protocol Buffer definition based on the Accept header submitted
+* Providers will accept a /schema prefix to all endpoints they provide which will return the JSON Schema or Protocol Buffer definition based on the Accept header submitted (eg. /schema/someendpoint/)
 * Provider will have an /endpoints endpoint detailing in a yet to be determined machine readable format what subset of GA4GH endpoints are supported
 * Detailed list of endpoints will indicate which are federated and what peer providers recursive queries will be performed against
 
