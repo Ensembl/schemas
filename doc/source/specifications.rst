@@ -32,7 +32,7 @@ Queries
 Data formats
 @@@@@@@@@@@@
 
-* Endpoints will return at minimum Protocol Buffers or JSON, both where possible
+* Endpoints will return at minimum Protobuf3 or JSON, both where possible
 * JSON Schema will be used to define valid reponses for endpoints returning JSON
 * Where applicable responses will use full ontology namespaces
 
@@ -49,7 +49,7 @@ Exact definitions and calculation methods will be defined in a future specificat
 Data Discovery
 @@@@@@@@@@@@@@
 
-* Providers will accept a /schema prefix to all endpoints they provide which will return the JSON Schema or Protocol Buffer definition based on the Accept header submitted (eg. /schema/someendpoint/)
+* Providers will accept a /schema prefix to all endpoints they provide which will return the JSON Schema or Protobuf3 definition based on the Accept header submitted (eg. /schema/someendpoint/)
 * Provider will have an /endpoints endpoint detailing in a yet to be determined machine readable format what subset of GA4GH endpoints are supported
 * Detailed list of endpoints will indicate which are federated and what peer providers recursive queries will be performed against
 
